@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --watch main.ts",
+    "deploy": "deployctl deploy --prod -p neofox main.ts"
+  }
+}
